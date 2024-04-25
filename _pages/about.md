@@ -11,7 +11,7 @@ I'm a master student majoring in mechanical engineering from [UM-SJTU Joint Inst
 I obtained my bachelor's degree in mechanical engineering from [UM-SJTU Joint Institute](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
 
 
-I am very fortunate to be advised by [Prof. Zijie QU](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/32777/) of [Bio-inspired Fluid Mechanics Lab ](https://sites.ji.sjtu.edu.cn/zijie-qu/) from [UM-SJTU Joint Institute](https://cs.pku.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
+I am very fortunate to be advised by [Prof. Zijie Qu (屈子杰)](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/32777/) of [Bio-inspired Fluid Mechanics Lab ](https://sites.ji.sjtu.edu.cn/zijie-qu/) from [UM-SJTU Joint Institute](https://cs.pku.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
 
 I am interested in all kinds of biological phenomena in the microscopic world, and centered on the theme of experimental fluid mechanics, the topics covered include:
 Bacteria swimming – both individual swimming and collective motion
