@@ -28,8 +28,8 @@ I am interested in all kinds of biological phenomena in the microscopic world, a
 
 News
 ======
-- **2023/07** Passed Chun-Tsung Program and awarded the honorary title of “Chun-Tsung scholar”
-- **2022/12** The Capstone project “Macroscopic model of bacterial flagella interaction and propulsion generation” won the Gold award at the 2022 Winter Design Expo
+- **2023/07** Passed [Chun-Tsung Program](https://junzheng.sjtu.edu.cn/) and awarded the honorary title of “Chun-Tsung scholar”.
+- **2022/12** The Capstone project “Macroscopic model of bacterial flagella interaction and propulsion generation” won the Gold award at the 2022 Winter Design Expo.
 
 ***
 
