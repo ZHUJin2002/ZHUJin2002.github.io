@@ -21,7 +21,7 @@ repository               : "zhujin2002/zhujin2002.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ZHUJinProfile.png"
+  avatar           : "ZhuJinProfile.png"
   name             : "ZHU Jin 朱晋"
   pronouns         : # example: "she/her"  
   bio              : "Hi, I am ZHU Jin"
