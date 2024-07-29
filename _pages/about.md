@@ -20,9 +20,10 @@ I obtained my bachelor's degree in mechanical engineering from [UM-SJTU Joint In
 Research Interest
 ------
 I am interested in all kinds of biological phenomena in the microscopic world, and centered on the theme of experimental fluid mechanics, the topics covered include:
-1. Macroscopic experiment of bacterial flagella interaction
-2. Bacteria swimming – both individual swimming and collective motion
-3. Microfluidics – design of new microfluidic channels and devices
+1. Microorganism Locomotion
+2. Soft Matter Physics
+3. Microfluidics
+4. Biofilm Formation
 
 ————————————————
 
@@ -42,13 +43,13 @@ Study on *Enterobacter* sp. SM3 swarming under Different Conditions (Ongoing)
 ------
 * Verifying influences of gravity and solid boundary to bacterial swarming by monitoring the colony growth microscopically and microscopically, using self-developed imaging platform to record and quantitate and microscope
 * Analyzing characteristic velocity, length, and time scales for bacterial motion in different areas of the swarming colonies (edge, near-edge, far-edge) by using particle image velocimetry (PIV) and optical flow methods
-* (Estimated) Building a theoretical model to explain the growth of swarming colony affected by gravitation force and under solid surface constrain based on experimental results and analysis
+* (Expected) Building a theoretical model to explain the growth of swarming colony affected by gravitation force and under solid surface constrain based on experimental results and analysis
 
 Experimental Study on Microbial Movement under Interface Constraint (Ongoing)
 ------
 * Applying a 3D real-time tracking microscope to track the swimming microorganism for long time (> 15s)
 * Measuring the swimming characteristics, including speed distribution, trajectory curvature, of smooth-swimming *E. coli* on near solid surfaces (glass slides) and semi-solid surfaces (non-nutrient agar of different concentration)
-* (Estimated) Building a theoretical model to explain the trends of "pusher" type cells' attraction to softer surfaces
+* (Expected) Building a theoretical model to explain the trends of "pusher" type cells' attraction to softer surfaces
 
 A Macroscopic Model of Bacterial Flagella Interaction and Propulsion Generation
 ------
@@ -58,7 +59,7 @@ A Macroscopic Model of Bacterial Flagella Interaction and Propulsion Generation
 
 Microfluidic Robot Powered by Electroosmosis-based Electrode Arrays
 ------
-* Simulated liquid pumping with ac-voltages applied to asymmetric electrode pairs by COMSOL, and obtained optimal electrodes pair size ratio of 5:3 under $ V_{pp} = 8 $V and 3 kHz frequency with experiment verification
+* Simulated liquid pumping with ac-voltages applied to asymmetric electrode pairs by COMSOL, and obtained optimal electrodes pair size ratio of 5:3 under V_{pp} = 8 V and 3 kHz frequency with experiment verification
 * Achieved 3 $\mu$m/s swimming speed of a 1.8 mm*1.3 mm chip with 5 sets of 20-electrodes-array applying travelling-wave electroosmosis (TWEO) under $V_{pp} = 3$V and 4 kHz frequency in experiments based on simulation
 
 Multi-material Direct Ink Writing 3D Printer Construction
@@ -66,8 +67,11 @@ Multi-material Direct Ink Writing 3D Printer Construction
 * Designed the structure of a new easily-assembled DIW printing extruder that lower the cost by 30%
 * Investigated the impact of different infill density, infill patterns and surface density, on material properties of 3D-printed objects by optimizing traditional 3D printer G-code generating logic to three different methods
   
-
-
+Research and Design of the Package Loading Mechanism for UAV Logistics
+------
+* Designed and manufactured the mechanical structure as well as the electronic control system for different scenarios such as emergency medical service, fresh food
+delivery and rural logistics
+* Made the wind tunnel fluid simulation of the mechanical structure by Ansys cfx and optimized the shape of our products to minimize the wind drag
 
 Publications
 ======
