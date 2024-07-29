@@ -36,6 +36,7 @@ Force Generation Based on Macroscopic Experimental Model*" in the 13th Chinese F
 - **2024/07** My first paper “Propulsion Contribution from Individual Filament in Flagellar Bundle” is now available in arXiv as [arXiv:2407.16532](https://arxiv.org/abs/2407.16532).
 - **2023/07** Passed [Chun-Tsung Program](https://junzheng.sjtu.edu.cn/) and awarded the honorary title of “Chun-Tsung scholar”.
 - **2022/12** The Capstone project “Macroscopic model of bacterial flagella interaction and propulsion generation” won the Gold award at the 2022 Winter Design Expo.
+- **2022/12** [Attended the 2022 Model International Academic Conference](https://sites.ji.sjtu.edu.cn/zijie-qu/2022/12/17/zhu-jin-attended-the-2022-model-international-academic-conference/). 
 
 ***
 
