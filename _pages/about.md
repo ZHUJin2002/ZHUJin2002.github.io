@@ -21,7 +21,7 @@ Research Interest
 ------
 I am interested in all kinds of biological phenomena in the microscopic world, and centered on the theme of experimental fluid mechanics, the topics covered include:
 1. Microorganism Locomotion
-2. Soft Matter Physics
+2. Avtive Matter
 3. Microfluidics
 4. Biofilm Formation
 
