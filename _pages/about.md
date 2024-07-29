@@ -64,8 +64,6 @@ A Macroscopic Model of Bacterial Flagella Interaction and Propulsion Generation
 </div>
 
 
-![MacroscopicExperiment](/images/macroscopic.png#pic_center =600x600))
-
 Microfluidic Robot Powered by Electroosmosis-based Electrode Arrays
 ------
 * Simulated liquid pumping with ac-voltages applied to asymmetric electrode pairs by COMSOL, and obtained optimal electrodes pair size ratio of 5:3 under $V_{pp}$ = 8 V and 3 kHz frequency with experiment verification
