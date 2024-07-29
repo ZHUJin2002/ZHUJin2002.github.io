@@ -73,7 +73,7 @@ Research and Design of the Package Loading Mechanism for UAV Logistics
 delivery and rural logistics
 * Made the wind tunnel fluid simulation of the mechanical structure by Ansys cfx and optimized the shape of our products to minimize the wind drag
 
-![UAVProject1](/images/UAV1.png "UAV Project")
+![UAVProject1](/images/UAV.png "UAV Project")
 
   ***
 
