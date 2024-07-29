@@ -5,3 +5,4 @@ collection: portfolio
 ---
 
 Best memories of our UAV team in the summer of 2021
+<img src='/images/UAVGroup.jpg'>
