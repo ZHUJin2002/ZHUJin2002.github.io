@@ -16,7 +16,7 @@ You can find my CV here: [Jin's Curriculum Vitae](../assets/ZhuJin_Resume.pdf).
 
 Background
 ------
-I obtained my bachelor's degree in mechanical engineering from [UM-SJTU Joint Institute](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
+I obtained my bachelor's degree in mechanical engineering from UM-SJTU Joint Institute, Shanghai Jiao Tong University.
 
 Research Interest
 ------
