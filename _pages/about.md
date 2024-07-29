@@ -47,7 +47,7 @@ Study on *Enterobacter* sp. SM3 swarming under Different Conditions (Ongoing)
 
 Experimental Study on Microbial Movement under Interface Constraint (Ongoing)
 ------
-* Applying a 3D real-time tracking microscope to track the swimming microorganism for long time (> 15s)
+* Applying a 3D real-time tracking microscope to track the swimming microorganism for long time (> 15 s)
 * Measuring the swimming characteristics, including speed distribution, trajectory curvature, of smooth-swimming *E. coli* on near solid surfaces (glass slides) and semi-solid surfaces (non-nutrient agar of different concentration)
 * (Expected) Building a theoretical model to explain the trends of "pusher" type cells' attraction to softer surfaces
 
@@ -73,7 +73,8 @@ Research and Design of the Package Loading Mechanism for UAV Logistics
 delivery and rural logistics
 * Made the wind tunnel fluid simulation of the mechanical structure by Ansys cfx and optimized the shape of our products to minimize the wind drag
 
-![这是图片](/images/ZHUJin.png "Magic Gardens")
+![UAVProject1](/images/UAV1.jpg "UAV Project")
+![UAVProject1](/images/UAV2.jpg "UAV Project")
 
   ***
 
