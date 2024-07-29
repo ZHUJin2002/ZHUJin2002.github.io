@@ -11,7 +11,7 @@ Currently
 ------
 I'm a master student majoring in mechanical engineering from [UM-SJTU Joint Institute](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). 
 I am very fortunate to be advised by [Prof. Zijie Qu (屈子杰)](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/32777/) of [Bio-inspired Fluid Mechanics Lab ](https://sites.ji.sjtu.edu.cn/zijie-qu/) from [UM-SJTU Joint Institute](https://cs.pku.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
-You can find my CV here: [JinZHU's Curriculum Vitae](../assets/ZhuJin_Resume.pdf).
+You can find my CV here: [Jin's Curriculum Vitae](../assets/ZhuJin_Resume.pdf).
 
 Background
 ------
@@ -29,6 +29,7 @@ I am interested in all kinds of biological phenomena in the microscopic world, a
 
 News
 ======
+- **2024/06** My first paper “Propulsion Contribution from Individual Filament in Flagellar Bundle” is now available in arXiv as [arXiv:2407.16532](https://arxiv.org/abs/2407.16532).
 - **2023/07** Passed [Chun-Tsung Program](https://junzheng.sjtu.edu.cn/) and awarded the honorary title of “Chun-Tsung scholar”.
 - **2022/12** The Capstone project “Macroscopic model of bacterial flagella interaction and propulsion generation” won the Gold award at the 2022 Winter Design Expo.
 
