@@ -75,6 +75,8 @@ delivery and rural logistics
 
   ![这是图片](/images/ZHUJin.jpg "Magic Gardens")
 
+  ***
+
 Publications
 ======
 - **Zhu, J.**, Qiao, Y., Yan, L., Zeng, Y., Wu, Y., Bian, H., Huang, Y., Ye, Y., Huang, Y., Hii, C. Russell, Teng, Y., Guo, Y., Li, G, and Qu, Z., **Propulsion Contribution from Individual Filament in a Flagellar Bundle**. arXiv preprint [arXiv:2407.16532](https://arxiv.org/abs/2407.16532). (Under Review)
