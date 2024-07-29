@@ -1,6 +1,6 @@
 ---
 title: "UAV Team"
-excerpt: "A group photo of our UAV team with our UAV 1<br/><img src='/images/UAVGroup.jpg'>"
+excerpt: "A group photo of our UAV team with our UAV <br/><img src='/images/UAVGroup.jpg'>"
 collection: portfolio
 ---
 
