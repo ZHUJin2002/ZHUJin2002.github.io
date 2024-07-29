@@ -63,8 +63,8 @@ A Macroscopic Model of Bacterial Flagella Interaction and Propulsion Generation
 
 Microfluidic Robot Powered by Electroosmosis-based Electrode Arrays
 ------
-* Simulated liquid pumping with ac-voltages applied to asymmetric electrode pairs by COMSOL, and obtained optimal electrodes pair size ratio of 5:3 under $V_{pp}$ = 8 V and 3 kHz frequency with experiment verification
-* Achieved 3 $\mu m/s$ swimming speed of a 1.8 mm*1.3 mm chip with 5 sets of 20-electrodes-array applying travelling-wave electroosmosis (TWEO) under $V_{pp}$ = 3 V and 4 kHz frequency in experiments based on simulation
+* Simulated liquid pumping with ac-voltages applied to asymmetric electrode pairs by COMSOL, and obtained optimal electrodes pair size ratio of 5:3 under V_max = 16 V and 3 kHz frequency with experiment verification
+* Achieved 3 μm/s swimming speed of a 1.8 mm*1.3 mm chip with 5 sets of 20-electrodes-array applying travelling-wave electroosmosis (TWEO) under V_max = 1.5 V and 4 kHz frequency in experiments based on simulation
 
 Multi-material Direct Ink Writing 3D Printer Construction
 ------
