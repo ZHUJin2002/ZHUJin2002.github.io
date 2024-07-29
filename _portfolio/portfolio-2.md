@@ -1,6 +1,6 @@
 ---
 title: "1st Workshop in ASME"
-excerpt: "Our first workshop in ASME 1<br/><img src='/images/ASME.png'>"
+excerpt: "Our first workshop in ASME <br/><img src='/images/ASME.png'>"
 collection: portfolio
 ---
 
