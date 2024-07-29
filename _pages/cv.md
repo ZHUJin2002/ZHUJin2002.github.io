@@ -69,6 +69,11 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Awards and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Sep 2022 - Present: Co-founder and co-leader of ASME branch in UM-SJTU Joint Institute
+* 2023: Outstanding Graduates of Shanghai (top 3% out of 350)
+* 2023: Capstone Project Gold Award at the UM-SJTU JI Design Expo (top 5% out of 50)
+* 2023: ChunTsung Scholar (top undergraduate research program in SJTU)
+* 2022: The John Wu & Jane Sun Merit Scholarship (top 3% out of 300)
+* 2021: First Prize of Shanghai Mechanical Engineering Innovation Competition
