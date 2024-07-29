@@ -73,6 +73,8 @@ Research and Design of the Package Loading Mechanism for UAV Logistics
 delivery and rural logistics
 * Made the wind tunnel fluid simulation of the mechanical structure by Ansys cfx and optimized the shape of our products to minimize the wind drag
 
+  ![这是图片](/images/ZHUJin.jpg "Magic Gardens")
+
 Publications
 ======
 - **Zhu, J.**, Qiao, Y., Yan, L., Zeng, Y., Wu, Y., Bian, H., Huang, Y., Ye, Y., Huang, Y., Hii, C. Russell, Teng, Y., Guo, Y., Li, G, and Qu, Z., **Propulsion Contribution from Individual Filament in a Flagellar Bundle**. arXiv preprint [arXiv:2407.16532](https://arxiv.org/abs/2407.16532). (Under Review)
