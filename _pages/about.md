@@ -91,9 +91,10 @@ Publications
 
 Teaching
 ======
-- Teaching Assitant, **VG100**, Introduction to Engineering
-- Teaching Assitant, **VM250**, Design and Manufacturing 1
-- Teaching Assitant, **VM312**, Mechanical Behaviour of Biological Tissues
+- *21 Fall*   Teaching Assistant, **VG100**, Introduction to Engineering
+- *22 Spring* Teaching Assistant, **VM250**, Design and Manufacturing 1
+- *23 Spring* Teaching Assistant, **VM312**, Mechanical Behaviour of Biological Tissues
+- *24 Fall*   Teaching Assistant, **VM320**, Fluid Mechanics
 
 ***
 
