@@ -9,14 +9,14 @@ redirect_from:
 
 Currently
 ------
-I'm a master student majoring in mechanical engineering from [UM-SJTU Joint Institute](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). 
-I am very fortunate to be advised by [Prof. Zijie Qu (屈子杰)](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/32777/) of [Bio-inspired Fluid Mechanics Lab ](https://sites.ji.sjtu.edu.cn/zijie-qu/) from UM-SJTU Joint Institute, Shanghai Jiao Tong University.
+I'm a PhD student in Quantitative Biosciences (Physics) at Georgia Institute of Technology. My research primarily focuses on biophysics of biofilms. I'm very fortunate to be advised by  [Prof. Peter Yunker]((https://physics.gatech.edu/user/peter-yunker)) of the [Yunker Lab]((https://yunkerlab.gatech.edu/)). 
+
 
 You can find my CV here: [Jin's Curriculum Vitae](../assets/ZhuJin_Resume.pdf).
 
 Background
 ------
-I obtained my bachelor's degree in mechanical engineering from UM-SJTU Joint Institute, Shanghai Jiao Tong University.
+I obtained both my bachelor's and master's degree in mechanical engineering from UM-SJTU Joint Institute, Shanghai Jiao Tong University. In my master's study, it was my great honor to be advised by [Dr. Zijie Qu (屈子杰)]((https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/32777/)) of [Bio-inspired Fluid Mechanics Lab ]((https://sites.gc.sjtu.edu.cn/qulab/)) from UM-SJTU Joint Institute, Shanghai Jiao Tong University.
 
 Research Interest
 ------
