@@ -24,17 +24,17 @@ author:
   avatar           : "ZhuJinProfile.png"
   name             : "ZHU Jin 朱晋"
   pronouns         : # example: "she/her"  
-  bio              : "Hi, I am ZHU Jin, a master student in Shanghai Jiao Tong University, where I study bio-inspired fluid mechanics."
-  location         : "Shanghai, China"
-  employer         : "Shanghai Jiao Tong University"
+  bio              : "Hi, I am ZHU Jin, a PhD student in Georgia Institute of Technology, where I study biophysics."
+  location         : "Atlanta, GA"
+  employer         : "Georgia Institute of Technology"
   uri              : # URL
-  email            : "zhujin0301@163.com" 
+  email            : "zhujin@gatech.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    :  "https://scholar.google.com/citations?user=gW6_WPgAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            :  "https://orcid.org/0009-0008-2086-9551"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
