@@ -39,3 +39,16 @@ footer { margin-top:24px; }
   .portrait { width:130px; height:130px; }
   nav { display:flex; flex-wrap:wrap; gap:6px 16px; margin-top:12px; padding-top:9px; }
 }
+.pub-group { margin:18px 0 5px; font-size:15px; }
+.papers { list-style:none; padding:0; margin:0; }
+.standalone { width:min(100% - 36px, 840px); margin:40px auto; }
+.standalone nav { display:block; border:0; padding:0; margin:0 0 20px; }
+.standalone h1 { margin-bottom:18px; }
+#earlier-updates { scroll-margin-top:22px; }
+#earlier-updates:target { outline:2px solid var(--rule); outline-offset:4px; }
+.gallery-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px 28px; }
+.gallery-entry { border-top:1px solid var(--rule); padding-top:12px; }
+.gallery-entry h2 { font-size:16px; }
+.gallery-entry p { color:var(--muted); font-size:13px; }
+.gallery-entry img { display:block; width:100%; height:auto; max-height:260px; object-fit:contain; object-position:left; }
+@media(max-width:680px) { .gallery-grid { grid-template-columns:1fr; } }

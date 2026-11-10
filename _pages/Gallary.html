@@ -1,14 +1,32 @@
 ---
-layout: archive
-title: "Gallary"
+layout: none
+title: Gallery
 permalink: /Gallary/
-author_profile: true
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery · Jin Zhu</title>
+  <link rel="stylesheet" href="{{ '/home.css?v=2' | relative_url }}">
+</head>
+<body>
+  <main class="standalone">
+    <nav aria-label="Navigation"><a href="{{ '/' | relative_url }}">← Home</a></nav>
+    <h1>Gallery</h1>
+    <div class="gallery-grid">
+      {% for post in site.portfolio %}
+        {% assign parts = post.excerpt | split: '<img' %}
+        <article class="gallery-entry">
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+          <p>{{ parts[0] | strip_html | escape }}</p>
+          {% if parts.size > 1 %}
+            <img loading="lazy" alt="{{ post.title | escape }}" {{ parts[1] | split: '>' | first }}>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </main>
+</body>
+</html>
