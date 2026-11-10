@@ -48,7 +48,7 @@ page='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="v
 <details><summary>Technical skills</summary>@@SKILLS@@</details>
 </section>
 <footer><a href="Gallary/">Gallery</a><a href="editor.html">Edit content</a></footer>
-</main></div><script src="app.js"></script></body></html>'''
+</main></div><script src="app.js?v=2"></script></body></html>'''
 values={k.upper():esc(str(v)) for k,v in d.items() if isinstance(v,str)}
 values.update(ABOUT=rich(d['about']),BACKGROUND=rich(d['background']),PROJECTS=projects,NEWS=news,PUBLICATIONS=pubs,TEACHING=rich(d['teaching']),CHINESE=esc(d['chineseName']))
 for key in ['education','experience','honors','skills','presentations']:
