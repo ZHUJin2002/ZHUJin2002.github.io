@@ -20,23 +20,35 @@ def rich(s):
  if re.search(r'<\s*(script|iframe|object|embed|style)|\son\w+\s*=|(?:javascript|data):',s,re.I):raise ValueError('Unsafe markup in content')
  s=s.replace('/images//','assets/').replace('/images/','assets/')
  return s
-pubs=''.join('<article class="publication" data-kind="'+('preprint' if re.search(r'under review|arxiv|biorxiv',p,re.I) else 'published')+'"><span class="paper-number">'+str(i+1).zfill(2)+'</span><div>'+rich(p)+'</div></article>' for i,p in enumerate(d['publications']))
+pubs=''.join('<article class="publication" data-kind="'+('preprint' if re.search(r'under review|arxiv|biorxiv',p,re.I) else 'published')+'"><div>'+rich(p)+'</div></article>' for i,p in enumerate(d['publications']))
 news=''.join('<li'+(' hidden class="older-news"' if i>3 else '')+'>'+rich(n)+'</li>' for i,n in enumerate(d['news']))
 projects=rich(d['projects'])
 projects=re.sub(r'<h2[^>]*>(.*?)</h2>',r'</div><div class="project"><h3>\1</h3>',projects)
 projects='<div>'+projects+'</div>'
-page='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>@@NAME@@ · Biophysics</title><meta name="description" content="@@INTRO@@"><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="style.css"></head><body>
-<a class="skip" href="#main">Skip to content</a>
-<header><a class="wordmark" href="#">JZ<span> / </span>@@CHINESE@@</a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#life">Beyond research</a><a class="nav-contact" href="mailto:@@EMAIL@@">Get in touch ↗</a></nav></header>
-<main id="main"><section class="hero"><div class="hero-copy"><p class="eyebrow"><span class="dot"></span> BIOPHYSICS · GEORGIA TECH</p><h1>@@NAME@@ <span>@@CHINESE@@</span></h1><p class="hero-statement">@@INTRO@@</p><p class="role">@@ROLE@@<br>@@INSTITUTION@@ · Atlanta, GA</p><div class="hero-links"><a class="button" href="#publications">Explore my work <span>↘</span></a><a class="text-link" href="assets/ZhuJin_CV_US.pdf">Curriculum vitae ↗</a></div></div><figure class="portrait"><img src="assets/ZhuJinProfile.png" alt="Portrait of Jin Zhu"><figcaption><span>朱晋 / Jin Zhu</span><span>Atlanta, GA ↗</span></figcaption></figure><div class="hero-bottom"><span>MICROBIAL LIFE, THROUGH A PHYSICIST’S LENS.</span><a href="#about">SCROLL TO EXPLORE ↓</a></div></section>
-<section id="about" class="split-section"><div class="section-label"><span>01 / ABOUT</span><h2>Small organisms.<br>Big questions.</h2></div><div class="about-copy"><p>@@ABOUT@@</p><p>@@BACKGROUND@@</p><div class="academic-links"><a href="@@SCHOLAR@@">Google Scholar ↗</a><a href="@@ORCID@@">ORCID ↗</a><a href="mailto:@@EMAIL@@">Email ↗</a></div><details class="cv-details"><summary>Education <span>+</span></summary>@@EDUCATION@@</details></div></section>
-<section id="research" class="research-section"><div class="section-heading"><div><p class="eyebrow">02 / RESEARCH</p><h2>The physics of living systems</h2></div><p>From individual motion<br>to collective behavior.</p></div><div class="research-grid"><article><span class="research-index">I</span><div class="microbe-art" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><h3>Biofilm formation</h3><p>Understanding the physical processes behind microbial communities.</p></article><article><span class="research-index">II</span><div class="wave-art" aria-hidden="true">∿<span>∿</span>∿</div><h3>Microorganism locomotion</h3><p>Exploring swimming, swarming, flagellar propulsion, and hydrodynamic interactions.</p></article><article><span class="research-index">III</span><div class="rings-art" aria-hidden="true"><i></i><i></i><i></i></div><h3>Biophysical signatures</h3><p>Exploring bacterial identification through surface topography and other physical features.</p></article></div><details class="cv-details"><summary>Research experience <span>+</span></summary>@@EXPERIENCE@@</details><details class="cv-details"><summary>Selected presentations <span>+</span></summary>@@PRESENTATIONS@@</details><details class="projects"><summary>Earlier research & engineering projects <span>+</span></summary>@@PROJECTS@@</details></section>
-<section id="publications" class="publications-section"><div class="section-heading"><div><p class="eyebrow">03 / PUBLICATIONS</p><h2>Publications &amp; preprints</h2></div><a class="text-link" href="@@SCHOLAR@@">Google Scholar ↗</a></div><div class="filters" role="group" aria-label="Filter publications"><button class="active" data-filter="all" aria-pressed="true">All work</button><button data-filter="published" aria-pressed="false">Published</button><button data-filter="preprint" aria-pressed="false">Preprints</button></div><p class="publication-note">Name in bold; <sup>*</sup> equal contribution. Preprints are under review.</p><div id="paper-list">@@PUBLICATIONS@@</div></section>
-<section class="split-section news-section"><div class="section-label"><span>04 / NEWS</span><h2>Along the way</h2><p>Research updates & milestones.</p></div><div><ul class="news-list">@@NEWS@@</ul><button id="more-news" class="text-button" aria-expanded="false">Show earlier updates +</button></div></section>
-<section class="split-section teaching-section"><div class="section-label"><span>05 / TEACHING</span><h2>Learning, shared.</h2></div><div class="teaching">@@TEACHING@@</div></section>
-<section class="split-section"><div class="section-label"><span>06 / HONORS &amp; LEADERSHIP</span><h2>Recognition &amp;<br>community.</h2></div><div>@@HONORS@@</div></section><section class="split-section"><div class="section-label"><span>07 / TECHNICAL SKILLS</span><h2>Tools of the trade.</h2></div><div>@@SKILLS@@</div></section>
-<section id="life" class="life-section"><p class="eyebrow">08 / BEYOND RESEARCH</p><h2>A little outside the lab.</h2><p>Moments and photographs from along the way.</p><a class="text-link" href="https://zhujin2002.github.io/Gallary/">Visit my photo gallery ↗</a></section>
-<section class="contact"><p class="eyebrow">LET’S CONNECT</p><h2>Curious about<br>the microscopic world?</h2><a href="mailto:@@EMAIL@@">@@EMAIL@@ ↗</a></section></main><footer><a class="wordmark" href="#">JZ / @@CHINESE@@</a><span>© <span id="year"></span> @@NAME@@</span><a href="editor.html">Edit content ↗</a><a href="#">Back to top ↑</a></footer><script src="app.js"></script></body></html>'''
+page='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>@@NAME@@ · Biophysics</title><meta name="description" content="@@INTRO@@"><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="home.css"></head><body>
+<a class="skip" href="#about">Skip to content</a>
+<div class="page">
+<aside class="profile"><img class="portrait" src="assets/ZhuJinProfile.png" alt="Jin Zhu" width="200" height="200">
+<h1>@@NAME@@ <span lang="zh">@@CHINESE@@</span></h1>
+<p>@@ROLE@@<br>@@INSTITUTION@@</p>
+<div class="links"><a href="mailto:@@EMAIL@@">Email</a><a href="assets/ZhuJin_CV_US.pdf">CV</a><a href="@@SCHOLAR@@">Google Scholar</a><a href="@@ORCID@@">ORCID</a></div>
+<nav aria-label="Sections"><a href="#about">About</a><a href="#publications">Publications</a><a href="#news">News</a><a href="#experience">Experience</a></nav>
+</aside>
+<main>
+<section id="about"><h2>About</h2><p>@@ABOUT@@</p><p>@@BACKGROUND@@</p></section>
+<section id="publications"><h2>Publications</h2><p class="note"><sup>*</sup> Equal contribution.</p><div id="paper-list">@@PUBLICATIONS@@</div></section>
+<section id="news"><h2>News</h2><ul class="news">@@NEWS@@</ul><button id="more-news" aria-expanded="false">Show earlier updates +</button></section>
+<section id="experience"><h2>Experience</h2>
+<details><summary>Education</summary>@@EDUCATION@@</details>
+<details><summary>Research experience</summary>@@EXPERIENCE@@</details>
+<details><summary>Selected presentations</summary>@@PRESENTATIONS@@</details>
+<details><summary>Earlier research and engineering projects</summary>@@PROJECTS@@</details>
+<details><summary>Teaching</summary>@@TEACHING@@</details>
+<details><summary>Honors and leadership</summary>@@HONORS@@</details>
+<details><summary>Technical skills</summary>@@SKILLS@@</details>
+</section>
+<footer><a href="Gallary/">Gallery</a><a href="editor.html">Edit content</a></footer>
+</main></div><script src="app.js"></script></body></html>'''
 values={k.upper():esc(str(v)) for k,v in d.items() if isinstance(v,str)}
 values.update(ABOUT=rich(d['about']),BACKGROUND=rich(d['background']),PROJECTS=projects,NEWS=news,PUBLICATIONS=pubs,TEACHING=rich(d['teaching']),CHINESE=esc(d['chineseName']))
 for key in ['education','experience','honors','skills','presentations']:

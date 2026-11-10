@@ -1,0 +1,41 @@
+:root { color-scheme: light; --ink:#242424; --muted:#626262; --link:#246888; --rule:#e5e5e5; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:white; font:15px/1.65 Arial, Helvetica, sans-serif; }
+a { color:var(--link); text-decoration:none; }
+a:hover, a:focus-visible { text-decoration:underline; text-underline-offset:3px; }
+.skip { position:absolute; left:1rem; top:1rem; transform:translateY(-200%); background:white; padding:.4rem; }
+.skip:focus { transform:none; }
+.page { width:min(100% - 48px, 1030px); margin:58px auto; display:grid; grid-template-columns:220px minmax(0,1fr); gap:64px; align-items:start; }
+.profile { position:sticky; top:32px; }
+.portrait { display:block; width:190px; height:190px; object-fit:cover; object-position:center 35%; border-radius:3px; }
+h1 { font-size:24px; line-height:1.25; margin:14px 0 5px; }
+h1 span { font-size:16px; font-weight:normal; color:var(--muted); }
+.profile p,.note { color:var(--muted); font-size:13px; margin:0 0 12px; }
+.links, footer { display:flex; flex-wrap:wrap; gap:5px 14px; font-size:14px; }
+nav { display:grid; gap:4px; margin-top:20px; padding-top:14px; border-top:1px solid var(--rule); font-size:14px; }
+section + section { border-top:1px solid var(--rule); margin-top:30px; padding-top:25px; }
+h2 { font-size:23px; line-height:1.25; margin:0 0 13px; }
+p { margin:0 0 12px; }
+.publication { padding:12px 0; border-top:1px solid var(--rule); font-size:14px; overflow-wrap:anywhere; }
+.publication:last-child { padding-bottom:0; }
+.paper-badge { color:var(--muted); font-size:.9em; }
+.news { padding-left:19px; margin:0 0 8px; }
+.news li { margin-bottom:6px; }
+button { background:none; border:0; padding:0; font:inherit; color:var(--link); cursor:pointer; }
+button:hover { text-decoration:underline; }
+details { border-bottom:1px solid var(--rule); padding:8px 0; }
+summary { cursor:pointer; }
+details img { max-width:100%; height:auto; }
+.cv-list { padding-left:20px; }
+.cv-list li { margin-bottom:8px; }
+.cv-list li>span { display:block; color:var(--muted); font-size:12px; }
+.cv-list p { margin:0; }
+dt { font-weight:bold; }
+dd { margin:0 0 6px; }
+footer { margin-top:24px; }
+@media(max-width:680px) {
+  .page { width:calc(100% - 36px); margin:25px auto; grid-template-columns:1fr; gap:26px; }
+  .profile { position:static; }
+  .portrait { width:130px; height:130px; }
+  nav { display:flex; flex-wrap:wrap; gap:6px 16px; margin-top:12px; padding-top:9px; }
+}
